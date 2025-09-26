@@ -41,18 +41,25 @@ O sistema segue a arquitetura **MVC (Model-View-Controller)**, com classes organ
    ```
 
 2. Compile os arquivos .java:
+
+   ```bash
    javac Controller/_.java Model/_.java View/\*.java
 
-3. Execute a aplicação:
-   java View.Main
+   ```
 
-📖 Exemplo de Uso:
+3. Execute a aplicação:
+   ```bash
+   java View.Main
+   ```
+
+## 📖 Exemplo de Uso
+
 Perfil admin = new Perfil("Administrador");
 Usuario user = new Usuario("Maria", admin);
 
 System.out.println(user);
 // Saída esperada: Usuario: Maria | Perfil: Administrador
 
-👩‍💻 Autor
+## 👩‍💻 Autor
 
 Projeto desenvolvido por Beatriz Finamor para a disciplina de Programação de Soluções Computacionais.
